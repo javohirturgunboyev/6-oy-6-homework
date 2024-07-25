@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter input {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.filter input:focus {
+  border-color: #007bff;
+}
+
+.filter button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.filter button:hover {
+  background-color: #0056b3;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 5px rgba(80, 35, 34, 0.2);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0 0;
+}
